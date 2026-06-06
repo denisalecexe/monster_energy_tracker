@@ -1,0 +1,98 @@
+/* VARIABILI CSS */
+:root {
+    --bg: #000;
+    --btn: #90c857;
+    --text: #42d961;
+    --border: #d7df2d;
+    --shadow: #267835;
+}
+
+/* TAG ELEMENT */
+body {
+    background: var(--bg);
+    color: var(--text);
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 100vh;
+    margin: 0;
+}
+
+/* ID */
+/* stile per il box del logo della monster */
+#box-img-logo {
+    display: grid;
+    place-items: center;
+    margin: 15px 0;
+}
+
+/* stile per il box della scelta  delle monster */
+#select-monster {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* stile del box del counter delle monster */
+#monster-info {
+    display: grid;
+    grid-auto-flow: column;
+    place-items: center;
+    column-gap: 20px;
+    max-width: 150px;
+    margin: 20px auto;
+}
+
+#counter {
+    cursor:default;
+    user-select: none;
+    font-size: 30px;
+}
+
+/* CLASS*/
+/* stile specifico per il logo del sito */
+.logos {
+    width: 500px;
+    filter: drop-shadow(0 0 5px var(--shadow));
+}
+
+/* stili specifici per i pulsanti nel sito */
+.bi {
+    cursor: pointer;
+    font-size: 35px;
+    color: var(--btn);
+    filter: drop-shadow(0 0 3px var(--shadow));
+    transition: all 0.3s ease;
+}
+
+.bi:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 5px var(--shadow));
+}
+
+/* stile per le immagini delle monster */
+.img-monster {
+    width: 300px;
+    height: 500px;
+    transition: all 0.3s ease;
+}
+
+/* hover specifico solo per i pulsanti del contatore */
+#monster-info .bi:hover {
+    transform: scale(1.4); /* questo li ingrandisce di più in modo che si noti */
+    color: var(--text);    /* questo cambia il colore al passaggio del mouse */
+}
+
+
+.img-monster:hover {
+    transform: scale(1.1);
+}
+
+.img-monster img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    filter: drop-shadow(0 0 10px var(--shadow));
+}
+

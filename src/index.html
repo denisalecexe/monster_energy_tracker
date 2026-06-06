@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/src/assets/favicon/monster-logo-favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Monster Energy Tracker</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <div id="box-img-logo">
+        <img src="/src/assets/logo/monster-energy-logo.png" alt="logo della famosa energy drink Monster" class="logos">
+    </div>
+
+    <!-- SELECT MONSTER -->
+    <div id="select-monster">
+        <i id="left-arrow" class="bi bi-caret-left-square"></i>
+        <div class="img-monster">
+            <img src="/src/assets/image/monster-energy-drink-classic.png" alt="immagine di una monster classica con il logo verde" id="current-monster">
+        </div>
+        <i id="right-arrow" class="bi bi-caret-right-square"></i>
+    </div>
+
+    <!-- COUNTER DELLE MONSTER -->
+    <div id="monster-info">
+        <i id="btn-minus" class="bi bi-dash"></i>
+        <span id="counter">0</span>
+        <i id="btn-plus" class="bi bi-plus"></i>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
