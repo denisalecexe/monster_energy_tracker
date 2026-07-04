@@ -48,11 +48,22 @@ Il progetto è stato sviluppato interamente in Vanilla JavaScript (senza framewo
 
 ---
 
-# Consiglio
+## Consiglio
 In questo progetto non è presente l'utilizzo di '*localStorage*', quindi i dati andranno persi ad ogni ricaricamento pagina e chiusura definitiva del browser.
 
 ---
 
-# Autore
-* **Sviluppatore Junior** - *Appassionato di codice e problem solving*
-* Progetto completato come parte del mio percorso di apprendimento di Javascript
+## Contribuire al progetto
+Le pull request sono benvenute.
+Per modifiche sostanziali, si prega di aprire prima una segnalazione per discutere di cosa si desidera modificare.
+
+---
+
+## Autore
+* **Denis (Dharelyx)** - Sviluppatore Junior appassionato di codice e problem solving.
+* Progetto completato come parte del mio percorso.
+
+---
+
+## Licenza
+Questo progetto è rilasciato sotto licenza [MIT] (https://choosealicense.com/licenses/mit/)
