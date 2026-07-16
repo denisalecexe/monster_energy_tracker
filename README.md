@@ -43,6 +43,7 @@ Il progetto è stato sviluppato interamente in Vanilla JavaScript (senza framewo
 ┃ ┣ 📂 styles
 ┃ ┃ ┗ 📜 style.css
 ┃ ┗ 📜 index.html
+┣ LICENSE
 ┗ 📜 README.md
 ```
 
